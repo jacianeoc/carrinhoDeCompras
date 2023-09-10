@@ -1,0 +1,13 @@
+SECRET=development
+PORT=3333
+PGHOST=0.0.0.0
+PGPORT=5432
+PGDATABASE=carrinhodecompra
+PGUSER=postgres
+PGPASSWORD=postgres
+PAGINATIONSIZE=25
+PATH_PREFIX='/api/'
+EMAIL_USER=randomm632@hotmail.com
+EMAIL_PASS=random123
+EMAIL_HOST='smtp-mail.outlook.com'
+NODE_ENV=production
