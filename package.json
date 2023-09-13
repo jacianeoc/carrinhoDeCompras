@@ -4,8 +4,7 @@
   "description": "",
   "main": "./app.js",
   "scripts": {
-    "start": "npm-run-all seed:start",
-    "seed:start": "node lib/seed && node ./bin/www",
+    "start": "node lib/seed && node ./bin/www",
     "dev": "nodemon ./bin/www",
     "seed": "node lib/seed",
     "test": "echo \"Error: no test specified\" && exit 1"
