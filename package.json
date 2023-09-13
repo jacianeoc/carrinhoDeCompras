@@ -4,7 +4,8 @@
   "description": "",
   "main": "./app.js",
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "npm-run-all seed:start",
+    "seed:start": "node lib/seed && node ./bin/www",
     "dev": "nodemon ./bin/www",
     "seed": "node lib/seed",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,9 +20,11 @@
     "pg": "^8.8.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "npm-run-all": "^4.1.5"
   },
   "keywords": [],
   "author": "",
   "license": "ISC"
 }
+
